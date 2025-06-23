@@ -6,11 +6,11 @@ def getSubjects():
 
 def newSubjects():
     subjects = getSubjects()
-    new_subjects = input('Any other subjects: ')
+    new_subjects = input('Any other subjects you would like to take: ')
     while new_subjects != '':
         new_subjects = new_subjects.title()
         subjects.append(new_subjects)
-        new_subjects = input('Any other subjects: ')
+        new_subjects = input('Any other subjects you would like to take: ')
     return subjects
 
 def allSubjects():
